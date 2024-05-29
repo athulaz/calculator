@@ -20,8 +20,10 @@
         <input type="text" class="border border-3 border-info shadow w-100 p-2 mb-3" readonly placeholder="0" id="result"><br>
 
         <div class="d-flex justify-content-around mb-2">
+            <button type="button" onclick="displayData('/')" class="btn btn-light calculator-button"></button>
             <button type="button" onclick="allClear()" class="btn btn-info calculator-button">AC</button>
-            <button type="button" onclick="back()" class="btn btn-info calculator-button">back</button>
+            <button type="button" onclick="back()" class="btn btn-info calculator-button">Back</button>
+           
             <button type="button" onclick="displayData('/')" class="btn btn-info calculator-button">/</button>
         </div>
         <div class="d-flex justify-content-around mb-2">
@@ -44,6 +46,7 @@
         </div>
         <div class="d-flex justify-content-around">
             <button type="button" onclick="displayData(0)" class="btn btn-dark calculator-button">0</button>
+            <button type="button" onclick="displayData(00)" class="btn btn-dark calculator-button">00</button>
             <button type="button" onclick="displayData('.')" class="btn btn-dark calculator-button">.</button>
             <button type="button" onclick="findOut()" class="btn btn-info calculator-button">=</button>
         </div>
